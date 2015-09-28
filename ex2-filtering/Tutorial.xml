@@ -22,7 +22,13 @@
       </participant_qos>
 
       <datareader_qos>
-	<!-- Time Based Filter-->
+	<!-- Time Based Filter 
+        <time_based_filter>
+          <minimum_separation>
+            <sec>5</sec>
+          </minimum_separation>
+        </time_based_filter>
+       -->
       </datareader_qos>
 
     </qos_profile>
