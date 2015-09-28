@@ -25,7 +25,7 @@ if (typeof(parsedId) === "undefined") {
 }
 
 function Sensor(id) {
-    this.id = id;
+    this.id = ''+id;
     this.value =0;
 
     this.readvalue = function() {
